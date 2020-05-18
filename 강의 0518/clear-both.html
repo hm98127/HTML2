@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            width: 500px;
+            margin: 0 auto;
+        }
+
+        .aside {
+            width: 200px;
+            float: left;
+        }
+
+        .section {
+            width: 300px;
+            float: left;
+        }
+
+        .container::after {
+            clear: both;
+            content: '';
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+        <h1>Header</h1>
+    </div>
+    <div class="container">
+        <div class="aside">
+            <h1>Aside</h1>
+            <p>Reprehenderit amet esse pariatur elit. Magna ad laborum pariatur Lorem sunt Reprehenderit aute magna
+                reprehenderit nisi dolore excepteur nisi et veniam adipisicing exercitation. Ea irure magna
+                reprehenderit proident ad laboris sunt adipisicing et nostrud labore adipisicing. Aute sit reprehenderit
+                quis eiusmod occaecat voluptate culpa qui cillum aliqua. Magna sit aliquip nostrud velit non nisi nisi
+                velit occaecat ea pariatur ut. Deserunt veniam aute nisi aute sint ut cillum et eiusmod. Sit est laboris
+                magna sint sint proident reprehenderit.</p>
+        </div>
+        <div class="section">
+            <h1>Section</h1>
+            <p>Non veniam esse nostrud labore. Consectetur ullamco labore nostrud id sunt ex do dolor eiusmod laborum
+                quis excepteur proident labore. Esse ut amet adipisicing mollit. Excepteur laborum consequat nisi veniam
+                cupidatat incididunt ex deserunt ex exercitation quis. Excepteur enim deserunt occaecat aute nulla est
+                proident et proident ea laboris ex. Lorem ad adipisicing excepteur laborum occaecat cillum id. Eiusmod
+                eiusmod quis veniam cupidatat ex consequat in esse deserunt eiusmod fugiat Lorem nisi.
+
+                Ea exercitation occaecat ut velit officia anim dolor eu amet pariatur pariatur proident eiusmod. Quis
+                cillum cillum nisi fugiat ea nostrud proident labore consectetur magna aute laborum. Ea ipsum irure ex
+                quis culpa nisi aliquip. Ipsum minim mollit culpa dolore duis aute minim deserunt ad do cupidatat ut
+                anim. Sunt aute irure amet in culpa eiusmod consequat qui fugiat id id.</p>
+        </div>
+    </div>
+    <div class="footer">
+        <h1>Footer</h1>
+    </div>
+
+</body>
+
+</html>
