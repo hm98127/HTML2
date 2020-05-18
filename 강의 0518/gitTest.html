@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,22 +12,73 @@
             position: absolute;
         }
 
-        .red {
+        .parent
+        {
+            position: relative;
+        }
+
+        .fixedbox
+        {
+            width: 100px;
+            height: 100px;
+            position: fixed;
+        }
+
+        .box:nth-child(1) {
             background-color: red;
+            left: 10px;
+            top: 10px;
+            z-index: 40;
+
         }
-        .green {
+
+        .box:nth-child(2) {
             background-color: green;
+            left: 50px;
+            top: 50px;
+            z-index: 35;
         }
-        .blue {
+
+        .box:nth-child(3) {
             background-color: blue;
+            left: 90px;
+            top: 90px;
+            z-index: 30;
+        }
+
+        body > div {
+            width: 400px;
+            height: 100px;
+            border: 3px soild black;
+
+            position: relative;
+            overflow: hidden;
         }
     </style>
 </head>
-<body>
 
-    <div class="box red"></div>
-    <div class="box greed"></div>
-    <div class="box blue"></div>
+<body>
+    <div>
+        <div class="box red"></div>
+        <div class="box green"></div>
+        <div class="box blue"></div>
+        <div>
+            <div class="box red"></div>
+            <div class="box green"></div>
+            <div class="box blue"></div>
     
+        </div>
+    </div>
+    <h1>Anim et amet elit id est nisi aliquip voluptate qui.</h1>
+<br>
+<br>
+<br>
+    <div class="parent">
+        <div class="box red"></div>
+        <div class="box green"></div>
+        <div class="box blue"></div>
+
+    </div>
 </body>
+
 </html>
