@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<!--HTML5로 작성되었음을 표시-->
+<html lang="en">
+<!-- 해당 웹페이지의 언어 표시<검색엔진에서 구분>-->
+
+<head>
+    <!-- 웹페이지 설정, 스타일 등 저장-->
+    <title>Document</title>
+    <!--문서의 타이틀 즉 웹페이지 위 태그 이름 설정 -->
+</head>
+
+<body>
+    <!--웹 페이지 본문에 해당하는 부분-->
+    <video controls="controls">
+        <source src="Flower - 31953.mp4" type="video/mp4" />
+    </video>
+
+    <br>
+    <!--HTML5 표기법-->
+    <br />
+    <!--XHTML5 표기법-->
+    <!--둘다 상관없이 쓸수있으나 이걸 많이 선호함 그래서 이렇게 하자-->
+
+    <h1 title="header">Hello JungHan world</h1>
+    <h2>Aliquip excepteur eu consectetur esse duis nulla irure minim consectetur.</h2>
+
+
+    <table border="2">
+        <caption>테이블 캡셥</caption>
+        <colgroup>
+            <col style="background: blueviolet;"/>
+            <col span="2" style="background: blue;"/>
+        </colgroup>
+        <tr>
+            <th>
+                <p contemteditable="">제목</p>
+            </th>
+            <th>제목2</th>
+            <th>제목3</th>
+        </tr>
+        <tr>
+            <td>본문1-1</td>
+            <td>본문1-2</td>
+            <td>본문1-3</td>
+        </tr>
+        <tr>
+            <td>본문2-1</td>
+            <td>본문2-2</td>
+            <td>본문2-3</td>
+        </tr>
+    </table>
+
+
+
+    <h1>과일</h1>
+    <ul>
+        <!-- 번호 순서있는 목록 태그-->
+        <li>사과</li>
+        <li>바나나</li>
+        <li>복숭아</li>
+        <li>배</li>
+        <li>포토</li>
+    </ul>
+
+    <h1>육류</h1>
+    <ol>
+        <!--번호 없는 목록 태그-->
+        <li>소고기</li>
+        <li>돼지고기</li>
+        <li>오리고기</li>
+        <li>닭고기</li>
+    </ol>
+
+    <dl>
+        <!--정의목록태그-->
+        <dt>김정한</dt>
+        <dd>천재</dd>
+        <dd>바보</dd>
+        <dd>OP</dd>
+    </dl>
+
+    <b>l</b>
+    <i>이탤릭</i>
+    <small>작은글자</small>
+    <sub>아래 달라붙는 글자</sub>
+    <sup>위에 달라붙는 글자</sup>
+    <ins>밑줄</ins>
+    <del>삭제된 글자</del>
+    <!--잘 안쓴다 css로 많이 쓰이기때문 그래도 알아두자-->
+
+    <ruby>
+        <!--일부 브라우저에서 호환이 안됨 그래서 rp로 하자-->
+        <span>大韓民國</span>
+        <rt>대한민국</rt>
+        <rp>)</rp>
+    </ruby>
+
+    <h1>1</h1>
+    <!--크기별 제목글자 태그-->
+    <p>Officia id nulla amet enim.</p>
+    <h2>2</h2>
+    <a href="#">Poem</a>
+    <p>Labore occaecat incididunt incididunt aute duis velit labore consequat reprehenderit laborum.</p>
+    <h3>3</h3>
+    <p>Mollit aliqua enim laboris aliqua labore officia deserunt incididunt minim mollit et ea eu.</p>
+    <h4>4</h4>
+    <p>Consectetur duis ullamco eu aute id ipsum mollit.</p>
+    <h5>5</h5>
+    <p>Non mollit velit in in commodo sunt ad irure labore et consequat id est sunt.</p>
+    <h6>6</h6>
+    <p>Eiusmod incididunt esse in nostrud mollit magna laboris nostrud ut cillum.</p>
+</body>
+
+</html>

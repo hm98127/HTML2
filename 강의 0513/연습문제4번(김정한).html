@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div[class|=col] {
+            color: blue;
+        }
+        div[id$="12"] {
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <div class="row">
+        <div class="col-12" id="header-12">Column 12</div>
+    </div>
+    <div class="row">
+        <div class="col-3" id="aside-12">Column 3</div>
+        <div class="col-9" id="section">Column 9</div>
+    </div>
+
+    <div class="row">
+        <div class="col-12" id="foote-12">Column 12</div>
+    </div>
+    
+</body>
+</html>

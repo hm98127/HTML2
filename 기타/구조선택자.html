@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        ul {
+            overflow: hidden;
+        }
+
+        li {
+            list-style: none;
+            float: left;
+            padding: 15px;
+        }
+
+        /* li:first-child {
+            border-radius: 10px 0 0 10px;
+        }
+
+        li:last-child {
+            border-radius: 0 10px 10px 0;
+        }
+
+        li:nth-child(2n) {
+            background-color: rebeccapurple;
+        }
+
+        li:nth-child(2n+1) {
+            background-color: rosybrown;
+        } */
+
+        li:first-child>a {
+            color: salmon;
+        }
+
+        h1:first-of-type {
+            color: sandybrown;
+        }
+
+        h2:first-of-type {
+            background-color: sienna;
+        }
+
+        h3:first-of-type {
+            font-size: 40px;
+        }
+
+        h3:last-of-type {
+            font-size: 10px;
+        }
+
+        p::first-letter {
+            font-size: 2.5em;
+        }
+
+        p::first-line {
+            color: springgreen;
+        }
+
+        #op::first-line {
+            color: steelblue;
+        }
+
+        .pp::first-line {
+            color: tomato;
+        }
+        /*.pp::last-letter {
+            font-size: 2.5em;
+        }*/
+        /* 아래 rint는 매개변수이다. */
+        p {
+            counter-increment: rint;
+        }
+        p::before {
+            content: counter(rint);
+        }
+        p::after {
+            content: " - " attr(data-page) " page";
+        }
+
+        
+    </style>
+
+
+</head>
+
+<body>
+
+    <h1>Header - 1</h1>
+    <h3>Header - 3</h3>
+    <h3>Header - 3</h3>
+    <h3>Header - 3</h3>
+    <h1>Header - 1</h1>
+    <h2>Header - 2</h2>
+    <h2>Header - 2</h2>
+
+
+
+    <ul>
+        <li><a href="#">condorasa</a></li>
+        <li><a href="#">condorasa</a></li>
+        <li><a href="#">condorasa</a></li>
+        <li><a href="#">condorasa</a></li>
+        <li><a href="#">condorasa</a></li>
+        <li><a href="#">condorasa</a></li>
+        <li><a href="#">condorasa</a></li>
+        <li><a href="#">condorasa</a></li>
+        <li><a href="#">condorasa</a></li>
+
+    </ul>
+
+
+    <h1>Sint tempor id ut commodo laborum ipsum sunt.</h1>
+    <p data-page="52">Excepteur Lorem enim pariatur tempor nulla sunt pariatur ea laboris. Amet tempor dolore laboris anim non aute
+        esse veniam. Fugiat elit ex nulla do officia id nisi amet.
+
+        Qui labore id amet cupidatat ad cillum anim voluptate ullamco anim nulla voluptate laboris velit. Quis ad magna
+        qui elit. Veniam occaecat ipsum veniam eu velit culpa dolore voluptate voluptate velit. Duis sit enim Lorem
+        Lorem tempor in id. Culpa voluptate irure est consequat enim ut ea. Velit enim magna ut laborum excepteur in
+        sunt deserunt occaecat id aliquip. </p>
+    <p id="op" data-page="273">Cupidatat ullamco laborum aliqua sit eiusmod nulla minim. Reprehenderit ut adipisicing voluptate mollit anim nisi
+        non anim occaecat excepteur do. Eu ut exercitation fugiat ea est consequat.
+
+        Sunt consectetur tempor mollit laborum aliqua. Ullamco consectetur voluptate commodo enim id exercitation
+        laboris quis. Esse excepteur labore sunt officia velit.</p>
+
+        <p class="pp" data-page="456">Consectetur cupidatat Lorem aliqua pariatur quis esse pariatur tempor laborum eiusmod excepteur adipisicing. Do esse pariatur eiusmod enim officia nisi fugiat irure do. Occaecat culpa deserunt proident laborum dolor reprehenderit amet velit laborum culpa et incididunt voluptate. Sunt exercitation do commodo do minim.
+
+Minim sit labore ea occaecat fugiat. Magna proident velit incididunt minim amet adipisicing labore tempor nulla eiusmod aliquip duis commodo voluptate. Mollit cillum laborum cillum officia enim aliquip cupidatat. Deserunt culpa aliquip eiusmod dolor nostrud pariatur exercitation.
+
+Adipisicing qui nostrud sunt aliquip velit pariatur ut fugiat consectetur ex cupidatat duis dolor consequat. Do tempor magna adipisicing anim. Nostrud exercitation culpa nulla ea est elit duis consequat officia voluptate deserunt ipsum ullamco deserunt. Ipsum aute laborum dolore anim adipisicing magna cupidatat. Ipsum velit amet laboris ullamco consectetur labore do culpa velit.</p>
+
+</body>
+
+</html>

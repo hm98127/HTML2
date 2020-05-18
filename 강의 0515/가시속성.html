@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #box {
+            display: inline;
+            
+            background-color: coral;
+            
+            margin: 10px;
+        }
+        #pox {
+            /*display: inline-block;*/
+
+            background-color: blue;
+            color: burlywood;
+            
+            opacity: 0.2;
+        }
+        table {
+            visibility: collapse;
+        }
+
+        .square {
+            width: 100px;
+            height: 100px;
+            position: absolute;
+        }
+
+        .red {
+            background-color: red;
+            left: 10px; 
+            top: 10px;
+            z-index: 100;
+        }
+        .green {
+            background-color: green;
+            left: 50px;
+            top: 50px;
+            z-index: 10;
+        }
+        .blue {
+            background-color: blue;
+            left: 90px;
+            top: 90px;
+
+            z-index: 1;
+        }
+        body > div {
+            width: 400px;
+            height: 100px;
+            border: 3px solid black;
+
+            position: relative;
+            overflow-y: scroll;
+        }
+    </style>
+</head>
+<body>
+    <span>Dummy</span>
+    <div id="box">
+        <span>Sunt amet occaecat sit qui eiusmod ad nisi adipisicing dolore eu incididunt.</span>
+    </div>
+    <div id="pox">
+        <span>Et ad ipsum sunt officia fugiat eu quis nostrud et nulla.</span>
+    </div>
+    <span>Dimmy2</span>
+
+    <p>Sit enim dolor velit minim ut culpa cupidatat eu.</p>
+    <table>
+        <tr>
+            <td>test</td>
+            <td>test</td>
+        </tr>
+        <tr>
+            <td>test</td>
+            <td>test</td>
+        </tr>
+        <tr>
+            <td>test</td>
+            <td>test</td>
+        </tr>
+        <p>Magna deserunt occaecat pariatur ex consectetur officia ea et officia Lorem fugiat anim dolor.</p>
+    </table>
+
+    <div class="square red"></div>
+    <div class="square green"></div>
+    <div class="square blue"></div>
+
+    <div>
+        <div class="square red"></div>
+        <div class="square green"></div>
+        <div class="square blue"></div>
+    </div>
+
+</body>
+</html>

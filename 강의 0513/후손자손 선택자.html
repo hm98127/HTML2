@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>super, sub type</title>
+
+    <style>
+        #header h1 {
+            color: rebeccapurple;
+        }
+
+        #section h1 {
+            color: hotpink;
+        }
+
+        #header h2 {
+            color: royalblue;
+        }
+
+        #header > h1 {
+            color: salmon;
+            background-color: turquoise;
+        }
+
+        #section > h1 {
+            color: tomato;
+            background-color: blanchedalmond;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h2>Programming</h2>
+    <div id="header">
+        <h1 class="title"> Voluptate eu exercitation irure nisi reprehenderit consequat enim. </h1>
+        <div id="nav">
+            <h1>Navigation</h1>
+        </div>
+        <h2>Operation</h2>
+    </div>
+
+    <div id="section">
+        <h1 class="title">Labore sunt consequat fugiat in consectetur id fugiat sunt est laborum laboris duis.</h1>
+        <p>Elit adipisicing commodo labore ullamco minim pariatur officia laborum est ex occaecat.</p>
+    </div>
+
+    <div id="header">
+        <h1 class="title">Laborum qui mollit veniam enim mollit nulla aliqua.</h1>
+        <div id="nav">
+            <h1>Swift</h1>
+        </div>
+    </div>
+    <div id="section">
+        <h1 class="title">Eiusmod qui ut ad veniam nulla labore nulla eiusmod amet ex eu dolore.Fugiat ex do nulla sint
+            anim pariatur in sint ipsum fugiat sunt incididunt aute.</h1>
+        <p>Pariatur culpa minim labore sit non pariatur eiusmod irure mollit deserunt fugiat anim. Laborum et excepteur
+            officia ad amet quis proident proident cupidatat pariatur eiusmod deserunt. Velit veniam consectetur nulla
+            Lorem proident minim. Mollit irure adipisicing laboris ullamco commodo sit sint voluptate.
+
+            Cillum nostrud sint ad ea laborum adipisicing. Ex in cillum in laborum ad. Eiusmod non tempor consequat
+            cillum culpa nulla labore consectetur do consectetur laboris deserunt.
+
+            Irure sit id laborum duis ullamco cillum do. Nostrud eiusmod nulla consectetur sint eu labore amet tempor
+            proident laborum et. Eu consequat in Lorem aliquip esse proident fugiat. Magna aliquip duis consequat et.
+            Deserunt sit ex velit do nulla laborum mollit incididunt enim. Deserunt est labore excepteur eiusmod
+            occaecat.</p>
+    </div>
+
+
+</body>
+
+</html>
+
+
+<!-------------------------------------------------------------------------------------------------------->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- 테이블 같은 경우 자손선택자 해도 소용없다 하지마라 -->
+    <style>
+        table > tr > th {
+            color: brown;
+        }
+    </style>
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Region</th>
+        </tr>
+        <tr>
+            <td>윤인성</td>
+            <td>서울특별시 강서구 내발산동</td>
+        </tr>
+    </table>
+    
+</body>
+</html>

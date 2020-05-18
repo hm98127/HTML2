@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS3 Selector Basic</title>
+    <link rel="stylesheet" href="cssEX.css">
+    <!--css경우 링크로 통해 불러오는 방법 1-->
+    <!--css 지정하는 것인데 아래 같은 경우 h1에 대해서만 색상 지정 
+        (* 페이지 전체 적용, # 붙이면 아이디달린애 적용, . 클래스로도 구분 가능 ,105p참고) -->
+    <style>
+        .select.op {
+            color: rgb(0, 0, 0);
+            background-color: rgb(14, 138, 90);
+        }
+
+        .select.op.close {
+            color: plum;
+        }
+
+        .op {
+            background-color: tomato;
+        }
+
+        h2 {
+            font-size: 30pt;
+        }
+
+        input[type=text] {
+            background-color: blue;
+        }
+
+        input[type=password] {
+            background-color: yellow;
+        }
+
+        img[src$=png] {
+            border: 3px solid red;
+        }
+
+        img[src$=jpg] {
+            border: 5px solid green;
+        }
+
+        img[src$=gif] {
+            border: 3px solid blue;
+        }
+
+        #he1 {
+            font-size: 80px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <img src="https://images.pexels.com/photos/4348226/pexels-photo-4348226.jpeg?cs=srgb&dl=pexels-4348226.jpg&fm=jpg" alt="">
+    <h1 id="he1">CSS3 Selector Basic</h1>
+    <h2 style="color: orchid;">Enim pariatur fugiat enim ullamco occaecat minim amet anim proident pariatur.</h2>
+    <h1 class="select"> Magna in labore mollit elit elit fugiat duis. </h1>
+    <h2 class="select op">Non reprehenderit occaecat ea sunt in.</h2>
+    <h3 class="op">Nisi nostrud ex id et excepteur.</h3>
+    <h1 class="select op close">Culpa voluptate aliqua minim minim officia deserunt officia adipisicing fugiat.</h1>
+
+    <h4 class="op close">Ipsum cupidatat tempor laborum commodo duis id ea id duis fugiat voluptate reprehenderit.</h4>
+    <h2 class="">Laborum occaecat proident amet magna adipisicing officia eu sunt ad ex.</h2>
+    <h3 id="foot">Enim deserunt excepteur sunt proident enim excepteur minim veniam minim culpa.</h3>
+    <img src="../text-4108126.jpg" alt="꽃">
+    <!--참고로 한 태그당 여러개 클래스를 가질수있으며 구분은 공백으로 한다.-->
+
+
+
+    <form>
+        <input type="text" name="" id="">
+        <input type="password" name="" id="">
+    </form>
+
+
+</body>
+
+</html>

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<!--HTML5로 작성되었음을 표시-->
+<html lang="en">
+<!-- 해당 웹페이지의 언어 표시<검색엔진에서 구분>-->
+
+<head>
+    <!-- 웹페이지 설정, 스타일 등 저장-->
+    <title>Document</title>
+    <!--문서의 타이틀 즉 웹페이지 위 태그 이름 설정 -->
+</head>
+
+<body>
+    <!--웹 페이지 본문에 해당하는 부분-->
+
+    <img src="text-4108126.jpg" alt="이미지 안나올시 나오는 문구" width="400">
+    <!--어떤 파일이든 불러올때 상위폴더는 ../ 이용 -->
+    <img src="/" alt="">
+    <br>
+    <!-- 브라우저마다 -->
+    <video controls width="640" height="360">
+        <source src="../Flower - 31953.mp4" type="video/mp4" />
+
+        <!--오디오와 마찬가지로 브라우저마다 호환이 틀리기 때문에 여러소스를 등록한다.-->
+    </video>
+    <br>
+    <br>
+    <br>
+    <audio src="../Todd Helder & Guy Arthur.mp3" controls="controls" preload="auto">
+        <!--크기변경은 css로-->
+        <!-- 브라우저 마다 호환이 틀리기 때문에 형태를 변형시키고 추가해주는 곳-->
+    </audio>
+    <br>
+    <!--HTML5 표기법-->
+    <br />
+    <!--XHTML5 표기법-->
+    <!--둘다 상관없이 쓸수있으나 이걸 많이 선호함 그래서 이렇게 하자-->
+
+    <h1 title="header">Hello JungHan world</h1>
+    <h2>Aliquip excepteur eu consectetur esse duis nulla irure minim consectetur.</h2>
+
+
+    <table border="2">
+        <caption>테이블 캡셥</caption>
+        <colgroup>
+            <col style="background: blueviolet;" />
+            <col span="2" style="background: blue;" /> <!-- col그룹을 해주었기때문에 아래 colspan 등 할시 꼬일수있음 주의-->
+        </colgroup>
+        <tr>
+            <th colspan="2">
+                <p contemteditable="">제목</p>
+            </th>
+            <th>제목2</th>
+            <th rowspan="2">제목3</th>
+        </tr>
+        <tfoot style="background: cadetblue;"></tfoot>
+        <!--지정이 되어있으면 셀합병이 잘안될수도있으니 주의-->
+        <tr>
+            <td colspan="3">본문1-1</td>
+            <td rowspan="2">본문1-2</td>
+            <td>본문1-3</td>
+        </tr>
+        <tr>
+            <td>본문2-1</td>
+            <td>본문2-2</td>
+            <td>본문2-3</td>
+        </tr>
+    </table>
+
+
+
+    <h1>과일</h1>
+    <ul>
+        <!-- 번호 순서있는 목록 태그-->
+        <li>사과</li>
+        <li>바나나</li>
+        <li>복숭아</li>
+        <li>배</li>
+        <li>포토</li>
+    </ul>
+
+    <h1>육류</h1>
+    <ol>
+        <!--번호 없는 목록 태그-->
+        <li>소고기</li>
+        <li>돼지고기</li>
+        <li>오리고기</li>
+        <li>닭고기</li>
+    </ol>
+
+    <dl>
+        <!--정의목록태그-->
+        <dt>김정한</dt>
+        <dd>천재</dd>
+        <dd>바보</dd>
+        <dd>OP</dd>
+    </dl>
+
+    <b>l</b>
+    <i>이탤릭</i>
+    <small>작은글자</small>
+    <sub>아래 달라붙는 글자</sub>
+    <sup>위에 달라붙는 글자</sup>
+    <ins>밑줄</ins>
+    <del>삭제된 글자</del>
+    <!--잘 안쓴다 css로 많이 쓰이기때문 그래도 알아두자-->
+
+    <ruby>
+        <!--일부 브라우저에서 호환이 안됨 그래서 rp로 하자-->
+        <span>大韓民國</span>
+        <rt>대한민국</rt>
+        <rp>)</rp>
+    </ruby>
+
+    <h1>1</h1>
+    <!--크기별 제목글자 태그-->
+    <p>Officia id nulla amet enim.</p>
+    <h2>2</h2>
+    <a href="#">Poem</a>
+    <p>Labore occaecat incididunt incididunt aute duis velit labore consequat reprehenderit laborum.</p>
+    <h3>3</h3>
+    <p>Mollit aliqua enim laboris aliqua labore officia deserunt incididunt minim mollit et ea eu.</p>
+    <h4>4</h4>
+    <p>Consectetur duis ullamco eu aute id ipsum mollit.</p>
+    <h5>5</h5>
+    <p>Non mollit velit in in commodo sunt ad irure labore et consequat id est sunt.</p>
+    <h6>6</h6>
+    <p>Eiusmod incididunt esse in nostrud mollit magna laboris nostrud ut cillum.</p>
+
+    <form action="">
+        <label for="name">이름</label>
+        <input id="name" type="text" name="serch" />
+        <!-- <input type="submit" /> -->
+        <br>
+        <label for="">비번</label>
+        <!-- <p>ddddddd</p> -->
+        <input type="password" name="password">
+        <small>대소문자 구분 없습니다.</small>
+        <br>
+        <label for="">포트폴리오 파일</label>
+        <input type="file" name="file">
+        <br>
+        <input type="submit">
+    </form>
+
+    <form action="">
+        <label for="">이름</label>
+        <input type="text">
+        <br>
+        <input type="button" value="">
+        <br>
+        <input type="checkbox" name="" id="">
+        <br>
+        <input type="file" name="" id="">
+        <br>
+        <input type="hidden" name="">
+        <br>
+        <input type="image" src="" alt="">
+        <br>
+        <input type="email" name="" id="">
+        <br>
+        <input type="month" name="" id="">
+        <br>
+        <input type="datetime-local" name="" id="">
+        <br>
+        <input type="radio" name="" id="">
+    </form>
+
+
+</body>
+
+</html>

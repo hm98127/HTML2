@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--레이아웃을 구성할때 오버플로우를 많이 쓰지만 clear/both 도 많이 쓴다.-->
+    <style>
+        img {
+            float: left;
+            margin: auto;
+            border-radius: 10px 10px 10px 10px;
+            border-collapse: collapse;
+            
+        }
+
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: tomato;
+            margin: 10px;
+            padding: 10px;
+
+            float: left;
+        }
+        .pox {
+            width: 100px;
+            height: 100px;
+            background-color: rgb(102, 255, 71);
+            margin: 10px;
+            padding: 10px;
+
+            float: right;
+        }
+
+        .Eox {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            margin: 10px;
+            padding: 10px;
+
+            float: initial;
+        }
+
+        .Wox {
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            margin: 10px;
+            padding: 10px;
+
+            float: inherit;
+        }
+        .Dox {
+            width: 100px;
+            height: 100px;
+            background-color: cadetblue;
+            margin: 10px;
+            padding: 10px;
+
+            float: inline-start;
+        }
+        .Tox {
+            width: 100px;
+            height: 100px;
+            background-color: rgb(102, 255, 71);
+            margin: 10px;
+            padding: 10px;
+
+            float: inline-end;
+        }
+
+        body {
+            width: 960px;
+            margin: 0 auto;
+        }
+        .clear {
+            clear: both;
+        }
+        #aside {
+            float: left;
+            width: 260px;
+        }
+        #section {
+            float: right;
+            width: 700px;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <img src="재롱이.jpg" alt="" >
+    <h1 style="text-shadow: 5px 5px 15px black; text-align: center; font-size: 3em; ;">Cillum fugiat</h1>
+    <p>Adipisicing ut Lorem incididunt duis excepteur labore excepteur cupidatat nostrud anim.</p>
+    <p style="border: 3px solid rgb(0, 0, 0);
+    box-shadow: 10px 10px 30px black;
+    text-shadow: 5px 5px 5px black;">Minim qui duis ullamco sint ut minim eiusmod elit ex id labore. Laborum consequat mollit nulla elit duis cillum
+        laborum adipisicing enim proident minim occaecat adipisicing non. Sit voluptate duis nisi magna. Ad aute duis
+        non voluptate consequat dolor magna veniam proident consectetur mollit magna tempor non. Sint laboris laboris
+        elit commodo id eiusmod nulla pariatur aliqua. Est aliquip sint commodo occaecat proident ut Lorem. Culpa
+        eiusmod deserunt veniam nulla ad consectetur est aliquip dolore ullamco ex nisi cillum cupidatat.
+
+        Culpa commodo irure labore adipisicing reprehenderit veniam officia ad nulla tempor ullamco officia mollit
+        deserunt. Minim esse aliquip sit deserunt sunt esse ad amet duis cupidatat. Aliquip deserunt aliquip sint dolor
+        ad fugiat commodo velit ullamco pariatur.
+
+        Pariatur ad cillum dolor Lorem aliquip commodo anim id irure veniam. In exercitation tempor ea irure sunt ipsum
+        voluptate et aliquip. Ullamco fugiat cillum enim magna laboris dolore excepteur irure. Irure ad aliqua irure
+        eiusmod pariatur ex irure Lorem id ullamco mollit aliquip irure. Magna esse do tempor sint aute eiusmod fugiat
+        eiusmod duis quis consequat. Quis id reprehenderit ad Lorem sit est quis est veniam anim culpa. Magna minim
+        voluptate nisi mollit ea deserunt irure dolore adipisicing.
+
+        Sit duis quis nulla occaecat deserunt proident incididunt aliquip non tempor est. Elit ut commodo reprehenderit
+        tempor est non nulla minim eu. Commodo eu laboris tempor minim.</p>
+
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="pox">3</div>
+        <div class="pox">4</div>
+        <div class="Eox">5</div>
+        <div class="Eox">6</div>
+        <div class="Wox">7</div>
+        <div class="Wox">8</div>
+        <div class="Dox">9</div>
+        <div class="Dox">10</div>
+        <div class="Tox">11</div>
+        <div class="Tox">12</div>
+
+        <div id="header"><h1>Header</h1></div>
+        <div id="navigation"><h1>Navigation</h1></div>
+        <div class="clear"></div>
+
+        <div id="aside">
+            <h1>Aside</h1>
+            <p>Veniam aliqua cillum id culpa exercitation Elit qui Lorem aliquip sunt voluptate ea nisi exercitation nisi nisi. Cillum mollit esse incididunt culpa ea duis. Enim velit est esse id pariatur deserunt.
+
+Ullamco nostrud qui aliqua et cillum irure fugiat est et in adipisicing quis pariatur proident. Est sit et exercitation quis ad do laboris nulla culpa ipsum dolore dolor proident. Veniam amet consectetur amet id ad duis reprehenderit id culpa et irure quis dolore. Elit nulla sint dolor magna in nulla do laboris tempor tempor. nisi culpa consequat ipsum elit tempor pariatur id.</p>
+        </div>
+        <div id="section"></div>
+        <h1>Section</h1>
+        <p>Laborum nostrud quis amet ut voluptate Tempor voluptate excepteur quis ad culpa aliquip sint pariatur amet aliqua. Proident non excepteur et ut exercitation velit sint elit. Ad adipisicing est Lorem quis minim dolor. Amet aliqua officia irure quis non qui laborum non. Proident ea exercitation duis sit anim incididunt Lorem voluptate qui non. Exercitation esse enim ullamco magna. Ex elit minim proident consequat esse.
+Et anim mollit duis aliqua laborum sunt esse culpa velit officia aliquip veniam nostrud nulla. Non ullamco Lorem adipisicing sit. Irure sit consectetur fugiat est culpa enim sint qui consectetur tempor sint. Consequat quis eiusmod aliquip laborum et Lorem.
+
+Non aliqua minim velit excepteur et. Est consectetur tempor irure officia est officia ut tempor officia velit. Nostrud nostrud elit deserunt do excepteur sit. Excepteur id voluptate dolor eu. Id nulla cillum id ullamco.
+
+Exercitation fugiat ut exercitation nisi sint mollit esse ipsum id. Cillum amet incididunt cillum aliquip nisi. Eu veniam culpa id duis exercitation. Elit dolor ea laboris laborum labore. Incididunt duis excepteur non aute. Consequat eu pariatur sint eiusmod est duis ipsum ad excepteur magna voluptate. Incididunt sint occaecat consectetur anim aliqua adipisicing et voluptate culpa do dolore nisi ullamco.
+Aliquip quis ut elit adipisicing quis cupidatat exercitation ullamco enim est. Irure elit nostrud aliquip elit veniam duis commodo velit sunt eu. In tempor reprehenderit occaecat aliquip aliqua cillum ex..</p>
+        <div class="clear"></div>
+
+        <div id="footer"></div>
+        <h1>Footer</h1>
+        <div class="clear"></div>
+        
+</body>
+
+</html>
